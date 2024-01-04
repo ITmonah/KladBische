@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новодевичье кладбище</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box-shadow">
+        <div class="header">
+            <div class="header__img">
+                <img src="img/logot.png" alt="logo">
+            </div>
+            <div class="header__links">
+                <a href="index.html">Главная</a>
+                <a href="#">Новости</a>
+                <a href="#">Об авторе</a>
+                <a href="#">Ссылки</a>
+                <a href="#">Книга отзывов</a>
+                <a href="#">Поиск</a>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news__search">
+                <h1>Новости</h1>
+                <div class="input-group">
+                    <input id="search" type="text" class="form-control" aria-label="Название песни"
+                        aria-describedby="button-addon2">
+                    <button class="btn" type="button" id="button-addon2">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.5 19C15.1944 19 19 15.1944 19 10.5C19 5.8056 15.1944 2 10.5 2C5.8056 2 2 5.8056 2 10.5C2 15.1944 5.8056 19 10.5 19Z"
+                                stroke="black" stroke-width="2" stroke-linejoin="round" />
+                            <path d="M16.6108 16.6108L20.8535 20.8535" stroke="black" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <ul class="list" id="hide">
+                    </ul>
+                </div>
+            </div>
+            <div class="news__boxes">
+                <div class="news__box" style="background-image: url(img/box1.png);">
+                    <div class="news__box-h">
+                        <h1>29 ноября 2023 г.</h1>
+                    </div>
+                    <div class="news__box-p">
+                        <p><a href="#">Белышев С.К.</a> - полковник государственной безопасности<br>
+                            <a href="#">Бубнов А.П.</a> - художник<br>
+                            <a href="#">Бубнов В.А.</a> - художник<br>
+                            <a href="#">Казанский Б.А.</a> - учёный<br>
+                            <a href="#">Казанский В.Б.</a> - учёный<br>
+                            <a href="#">Савин Л.М.</a> - писатель<br>
+                            <a href="#">Силаев З.И.</a> - военный деятель
+                        </p>
+                    </div>
+                </div>
+                <div class="news__box" style="background-image: url(img/box2.png);">
+                    <div class="news__box-h">
+                        <h1>19 ноября 2023 г.</h1>
+                    </div>
+                    <div class="news__box-p">
+                        <p><a href="#">Гришечкин Вячеслав</a> - актёр</p>
+                    </div>
+                </div>
+                <div class="news__box" style="background-image: url(img/box3.png);">
+                    <div class="news__box-h">
+                        <h1>10 ноября 2023 г.</h1>
+                    </div>
+                    <div class="news__box-p">
+                        <p><a href="#">Богословский Д.Ф.</a> - художник-реставратор<br>
+                            <a href="#">Болятко В.А.</a> - военный деятель<br>
+                            <a href="#">Бурмистров М.В.</a> - военный деятель<br>
+                            <a href="#">Хохлов Р.В.</a> - учёный<br>
+                            <a href="#">Юон К.Ф.</a> - художник
+                        </p>
+                    </div>
+                </div>
+                <div class="news__box" style="background-image: url(img/box4.png);">
+                    <div class="news__box-h">
+                        <h1>2 ноября 2023 г.</h1>
+                    </div>
+                    <div class="news__box-p">
+                        <p><a href="#">Ясулович Игорь</a> - актёр, режиссёр</p>
+                    </div>
+                </div>
+                <div class="news__box" style="background-image: url(img/box5.png);">
+                    <div class="news__box-h">
+                        <h1>1 октября 2023 г.</h1>
+                    </div>
+                    <div class="news__box-p">
+                        <p><a href="#">Бернштейн А.С.</a> - учёный, коллекционер<br>
+                            <a href="#">Купреянов Н.Н.</a> - художник<br>
+                            <a href="#">Купреянов Я.Н.</a> - скульптор
+                        </p>
+                    </div>
+                </div>
+                <div class="news__box" style="background-image: url(img/box6.png);">
+                    <div class="news__box-h">
+                        <h1>8 октября 2023 г.</h1>
+                    </div>
+                    <div class="news__box-p">
+                        <p><a href="#">Евгения Чазова</a> - установлен памятник</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">10</a>
+            <p>...</p>
+            <a href="#">99</a>
+        </div>
+        <div class="footer">
+            <div class="footer__top">
+                <p>Доступные виды захоронений:<br>
+                    Захоронение тела на родственном участке<br>
+                    Захоронение праха на родственном участке<br>
+                    Захоронение праха в колумбарии</p>
+                <div class="footer__right">
+                    <p>Часы работы администрации<br>
+                        Ежедневно с 9:00 до 17:00</p>
+                    <a href="tel:+74996100000">+7 (499) 610-00-00</a>
+                </div>
+                <div class="footer__links-m">
+                    <a href="#">Главная</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Об авторе</a>
+                    <a href="#">Ссылки</a>
+                    <a href="#">Книга отзывов</a>
+                    <a href="#">Поиск</a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <a href="#">Главная</a>
+                <a href="#">Новости</a>
+                <a href="#">Об авторе</a>
+                <a href="#">Ссылки</a>
+                <a href="#">Книга отзывов</a>
+                <a href="#">Поиск</a>
+            </div>
+            <div class="footer__right-m">
+                <p>Часы работы<br>администрации<br>
+                    Ежедневно с 9:00 до 17:00</p>
+                <a href="tel:+74996100000">+7 (499) 610-00-00</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

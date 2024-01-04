@@ -1,0 +1,143 @@
+@media screen and (max-width:1118px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__links {
+        margin-left: 0px;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header__img {
+        width: 100%;
+        height: 22.96vw;
+    }
+
+    .header__img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .welcome__left {
+        margin-top: 16px;
+        margin-bottom: 19px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .welcome__right {
+        display: none;
+    }
+
+    .welcome {
+        background: rgba(0, 0, 0, 0.71);
+        align-items: normal;
+        gap: 13px;
+    }
+
+    .welcome__left {
+        margin-right: 23px;
+    }
+
+    .welcome__box {
+        background: #000;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        width: 128px;
+    }
+
+    .news__search {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .input-group ul {
+        display: none;
+    }
+
+    .news__box {
+        margin-top: 0px;
+        filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+    }
+
+    .news__boxes {
+        margin-bottom: 93px;
+    }
+
+    .footer__top {
+        flex-direction: row-reverse;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 5px;
+    }
+
+    .footer__top p {
+        text-align: right;
+        height: 190px;
+        width: 236px;
+    }
+
+    .footer__links-m {
+        display: block;
+    }
+
+    .footer__right {
+        display: none;
+    }
+
+    .footer__links-m a {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+
+    .footer__links-m {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__links {
+        display: none;
+    }
+
+    .header__links {
+        width: 120px;
+    }
+
+    .footer__right-m {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        margin-bottom: 8px;
+    }
+
+    .footer__right-m a {
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    .footer__right-m p {
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+}
